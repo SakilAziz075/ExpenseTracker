@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "expense-tracker",
+    "name": "Expense Tracker",
     "slug": "expense-tracker",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -11,10 +11,10 @@
       "icon": "./assets/expo.icon"
     },
     "android": {
+      "package": "com.sakilaziz.expensetracker",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
+        "backgroundColor": "#008F55",
+        "foregroundImage": "./assets/images/icon.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false
@@ -38,6 +38,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "57e97e5a-0417-436c-9327-a2e5af96becf"
+      }
     }
   }
 }
